@@ -1,0 +1,29 @@
+body,
+html {
+  margin: 0pt;
+  padding: 0pt;
+  background-color: black;
+}
+
+h1 {
+  font-size: 36pt;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.proj_head {
+  font-size: 28pt;
+  color: white;
+}
+
+p {
+  font-size: 14pt;
+  text-align: center;
+  color: white;
+  margin-bottom: 30pt;
+}
