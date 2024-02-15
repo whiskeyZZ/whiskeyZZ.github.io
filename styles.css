@@ -9,6 +9,20 @@ h1 {
   font-size: 36pt;
   text-align: center;
   color: white;
+  font-family: monospace;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  /*gap: 10pt;*/
+}
+
+.submain {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 25pt;
 }
 
 .container {
@@ -17,8 +31,9 @@ h1 {
 }
 
 .proj_head {
-  font-size: 28pt;
+  font-size: 20pt;
   color: white;
+  margin-bottom: 15pt;
 }
 
 p {
@@ -26,4 +41,89 @@ p {
   text-align: center;
   color: white;
   margin-bottom: 30pt;
+  margin-top: 0pt;
+  margin-left: 10pt;
+  margin-right: 10pt;
+}
+
+.border {
+  border-style: solid;
+  border-radius: 20pt;
+  border-width: medium;
+  width: 30%;
+  margin: 10pt;
+}
+
+#border_blue {
+  border-color: blue;
+  height: fit-content;
+  box-shadow: 0 0 15pt blue;
+}
+
+#border_red {
+  border-color: red;
+  height: fit-content;
+  box-shadow: 0 0 15pt red;
+}
+
+#border_green {
+  border-color: green;
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0 0 15pt green;
+}
+
+#border_violet {
+  border-color: violet;
+  width: 100%;
+  height: fit-content;
+  box-shadow: 0 0 15pt violet;
+}
+
+.subhead {
+  margin: 20pt;
+  font-size: 22pt;
+  text-align: center;
+  font-family: monospace;
+}
+
+#subhead_project {
+  color: blue;
+}
+
+#subhead_links {
+  color: green;
+}
+
+#subhead_me {
+  color: violet;
+}
+
+#subhead_music {
+  color: red;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
+}
+
+#hrgreen hr {
+  color: green;
+}
+
+#hrblue hr {
+  color: blue;
+}
+
+#hrred hr {
+  color: red;
+}
+
+#hrviolet hr {
+  color: violet;
 }
